@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #1a1a1a;  /* Dark background */
+    color: #f1f1f1;  /* Light text for contrast */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid #333;  /* Darker border */
+    border-radius: 5px;
+    background: linear-gradient(145deg, #222, #111);  /* Subtle gradient for a "raised" look */
+    box-shadow: 4px 4px 10px #000, -4px -4px 10px #2a2a2a;  /* Inset shadow for a modern "neumorphism" look */
+    width: 90vw;
+    text-align: center;
+}
+
+.section:last-child {
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.my-image {
+    width: 25vw;
+    height: 35vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
